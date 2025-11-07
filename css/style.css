@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto' , serif;
+  box-sizing: border-box;
+}
+
+.btn__task1{
+  border: 2px solid #686666;
+  background: transparent;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -khtml-border-radius: 20px; 
+  height: 40px;
+  width: 200px;
+  outline: none;
+  color: black;
+ font-size: 16px;
+  position: relative;
+  cursor: pointer;
+  margin: 70px;
+  left: 50px;
+}
+.btn__task1:hover{
+  background-color: #9f0808;
+  color: #FFF;
+}
+.btn__task1:active{
+  background-color: #470303;
+  color: #FFF;
+}
+.task2__text{
+margin-top: 160px ;
+display: table;
+width: 100%;
+border-collapse: collapse;
+}
+.title__text{
+padding-left: 30px;
+margin-bottom: 25px;
+font-size: 25px;
+}
+.text__item{
+  margin-bottom: 1em;
+display: table-row ;
+padding-left: 25px;
+
+}
+.t-1{
+display: table-cell;
+width: 50%;
+vertical-align: top;
+padding: 0;
+background: #FFF;
+text-indent: 1.5em;
+
+}
+.t-2{
+  
+  display: table-cell;
+width: 50%;
+vertical-align: top;
+padding: 0;
+background: #FFF;
+text-indent: 1.5em;
+}
+.t-1 item-1{
+  border-right: 10px solid #FFF;
+  
+}
+
+.t-2 item-2{
+  border-left: 10px solid #FFF;
+}
+.link__text{
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.a__text1{
+text-decoration: none;
+  color: black;
+}
+.a__text1:hover{
+  text-decoration: underline;
+  color: #0ba3b1;
+}
+.task__3-container{
+  margin-top: 120px;
+  max-width: 600px;
+  padding-left: 50px;
+}
+.progress__bar{
+  background-color: #32b35b;
+ bottom: 0px;
+ left: 0px;
+ top: 0px;
+  position: relative;
+  text-align: center;
+  color: #FFF;
+ width: 100%;
+
+}
+.progress__bar-bg{
+  background-color: #c3c7c4;
+  position: relative;
+  border-radius: 10px;
+  border-color: #232222;
+  height: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.task4__star{
+  margin-top: 120px;
+  padding-left: 50px;
+  line-height: 1;
+  text-shadow: 1px 1px #bbb;
+
+}
+.star__symbol{
+font-size: 40px;
+margin: 2px;
+text-shadow: 1px 1px #bbb;
+cursor: pointer;
+
+}
+.star__symbol:hover{
+  color: gold;   
+}
+.star__symbol:active{
+color: rgba(240, 240, 58, 0.869)
+ 
+}
+.star__symbol:focus{
+ vertical-align: middle;
+ color: gold;;
+}
+.task5__icon{
+  margin-top: 120px;
+}
+.list__icon {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+.img__icon{
+  position: relative;
+   width: 120px;
+  height: 120px;
+}
+.img__icon5{
+  position: relative;
+  left: 275px;
+   width: 120px;
+  height: 120px;
+}
+.count__phrase{
+  margin-top: 250px;
+}
